@@ -1,0 +1,132 @@
+img {
+    max-width: 100%;
+    max-height:500px;
+    width: auto;
+    height: auto;
+}
+.nan{
+  background-color: rgb(137, 137, 137);
+  border: 10px solid rgb(42, 41, 41);
+}
+.naoMetal {
+  background-color: rgb(26, 151, 26);
+  border: 10px solid darkgreen;
+}
+.metaisAlcalinos-terrosos {
+  background-color: rgb(234, 199, 0);
+  border: 10px solid rgb(234, 168, 0);
+}
+.outrosMetais {
+  background-color: rgb(129, 129, 129);
+  border: 10px solid rgb(60, 60, 60);
+}
+.Actinidios {
+  background-color: rgb(241, 120, 255);
+  border: 10px solid rgb(195, 0, 234);
+}
+.gasNobre {
+  background-color: rgb(4, 4, 185);
+  border: 10px solid rgb(7, 7, 101);
+}
+.semimetais{
+  background-color: rgb(4, 146, 185);
+    border: 10px solid rgb(0, 66, 94);
+}
+.metaisDeTransicao {
+  background-color: rgb(229, 37, 123);
+    border: 10px solid rgb(101, 7, 49);
+}
+.metaisAlcalinos {
+  background-color: orange;
+  border: 10px solid rgb(180, 117, 0);
+}
+.haloenios {
+  background-color: rgb(0, 162, 180);
+    border: 10px solid rgb(7, 41, 101);
+}
+.lantanideos {
+  background-color: rgb(72, 255, 246);
+    border: 10px solid rgb(7, 101, 95);
+}
+
+
+#element {
+    margin-left: 300px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  #numAtomic {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  #simQuim {
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .form-group {
+    display: flex;
+  }
+  .form-group button{
+    height: 38px;
+  }
+  
+  /*  */
+
+  body {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #container {
+    margin-top: 50px;
+  }
+  
+  #nome-elemento {
+    font-size: 20px;
+  }
+  
+  #input-elemento {
+    margin-top: 10px;
+    padding: 5px;
+  }
+  
+  #btn-verificar {
+    margin-top: 10px;
+    padding: 5px 10px;
+  }
+  
+  #mensagem {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  #btn-iniciar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #cronometro {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
